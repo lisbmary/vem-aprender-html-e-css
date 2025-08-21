@@ -1,0 +1,52 @@
+/* cor de fundo: */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho{
+    
+    width: 100vh;
+}
+
+.corPreto{
+    background: #c19bf2;
+    background: #f587b6;
+    background: radial-gradient(circle, rgba(245, 135, 182, 1) 0%, rgba(198, 148, 233, 1) 100%)!important;
+}
+
+.corPreto a :focus{
+    color: rgb(185, 66, 66)
+}
+
+.corPreto button{
+    color: rgb(255, 255, 255)
+}
+
+.corPreto form{
+    color: rgb(255, 255, 255)
+}
+
+.corPreto a:hover{
+    color:rgb(109, 39, 131)
+}
+
+.corPreto a:active{
+    color: rgb(176, 51, 176);
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* #pagina1{
+    width: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+
+} */

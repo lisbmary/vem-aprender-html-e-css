@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <head>  ./ significa "diretorio atual" -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Selector</title>
+    <!-- CSS BOOTSTRAP -->
+    <link rel="stylesheet" href="./src/framework/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <!-- CSS EXTERNO -->
+    <link rel="stylesheet" href="./css/index.css"> 
+    <!-- FONTE AWESOME BIBLIOTECA -->
+    <script src="https://kit.fontawesome.com/42c04c0a9c.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: lightpink;">
+
+    <div id="pagina1">
+
+        <!-- CABEÇALHO DA PÁGINA: -->
+    <header>
+        <nav class="navbar bg-body-tertiary corPreto">
+            <div class="container-fluid">
+              <a class="navbar-brand">Projetos</a>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+          <div id="cabecalho"> </div>
+
+    </header>
+    
+    <!-- CONTEÚDO DA PÁGINA: -->
+     <main>
+            <section>
+                <div class="container-fluid text-center" >
+                    <div class="row">
+                        <div class="col">
+                            <div class="col-md mx-auto"> 
+                                <h1 class="fw-light">APLICAÇÕES DESENVOLVIDAS COM</h1>
+                                <p style="font-size: 40px;">
+                                <i class="fa-brands fa-html5"></i> HTML 5 v.5
+                                <i class="fa-brands fa-css3-alt"></i> CSS 3 v.3
+                                </p>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- CARDS DOS SITES -->
+            <section> 
+                <div class="container-fluid mt-5 justify-content-center align-items-center"
+                style="width: 100vw;">
+
+                    <div class="row">
+
+                        <div class="cow-sm-12 col-md-4"> 
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="css-14022023.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">DISPLAY EM CSS</h5>
+                                  <p class="card-text">
+                                Projeto de um site para explicar os displays em css</p>
+                                <a href="./src/sites/projeto1.html" class="btn btn-outline-dark"> CLIQUE AQUI</a>
+
+
+                                </div>
+                              </div>
+           </section>
+     </main>
+
+    </div>
+    
+    
+     <!-- RODAPÉ DA PÁGINA:  -->
+     <footer>
+        <div style=" width: 100vw; height: 20vh; margin-top: 10vh;" class="corPreto">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">DEVS 2025 TODOS OS DIREITOS RESERVADOS</a>
+                </li>
+     
+                </li>
+              </ul>
+        </div>
+     </footer>
+    
+    <script src="./src/framework/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

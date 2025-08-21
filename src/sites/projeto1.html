@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETO 1 -- DISPLAY</title>
+    <link rel="stylesheet" href="../framework/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+
+    <style>
+      *{
+        padding:0;
+        margin:0;
+      }
+
+      body{
+        overflow-x:hidden ;
+      }
+    </style>
+
+
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <header>
+    <!-- CABEÇALHO -->
+<nav class="navbar bg-body-tertiary corPreto">
+  <div class="container-fluid">
+    <a class="navbar-brand">Explicando Display</a>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</header>
+
+  <main class=flex-fill>
+    <!-- CONTEUDO COM AS SECTIONS DA PAGINA -->
+     <section> 
+
+      <div style=" height: 90 vh; background-color: rgb(216, 159, 233);">
+        <div class="row" style="height: 90vh;">
+          <div class=" col-12 col-md-6" 
+          style="background-color: white; display: flex; justify-content: center; align-items: center; flex-direction: column; ">
+            <h1> VEM APRENDER HTML E CSS </h1>
+            <br>
+            <br>
+            <p> texto texto texto texto texto texto texto texto texto texto texto texto texto texto </p>
+            <button class="btn btn-outline-success" type="submit">cliqu e</button>
+          </div>
+
+        </div class="col-12 col-md-6"
+        style=" display: flex; justify-content: center; align-items: center; flex-direction: column;" >
+      <h2 style="color: aqua;"> CONTEÚDOS </h2>
+
+      <div class="accordion accordion-flush" id="accordionFlushExample" style="width: 100%;">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              HTML 5
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"> HTML5 é a versão mais recente e aprimorada da linguagem de marcação de hipertexto (HTML), usada para estruturar o conteúdo da web. Ele introduz novas tags, funcionalidades e APIs que facilitam a criação de páginas web interativas e responsivas, além de melhorar a experiência do usuário e a eficiência do desenvolvimento. </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              CSS
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">CSS, ou Folhas de Estilo em Cascata, é uma linguagem usada para descrever a apresentação de documentos HTML ou XML. Em termos simples, o CSS define como os elementos de uma página web devem ser exibidos, incluindo cores, fontes, layout e outros aspectos visuais. O CSS trabalha em conjunto com o HTML, que define a estrutura do conteúdo, enquanto o CSS adiciona estilo e apresentação. </div>
+          </div>
+        
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+
+      </div>
+
+
+    </section>
+
+    <section>
+
+      <div style="height: 50vh;" style=" background-color: brown; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <h1> O que é a propriedade Display em CSS</h1>
+        <br>
+        <p> A propriedade display em CSS define como um elemento HTML é exibido na página, determinando seu tipo de renderização e como ele interage com outros elementos. Basicamente, ela controla se um elemento se comporta como um bloco, um elemento inline, ou se é completamente ocultado, entre outras opções. </p>
+
+      </div>
+      <div style="height: 50vh;" style="background-color: burlywood; overflow: scroll;">
+        <table class="table table-hover table-responsive-sm">
+          <thead>
+            <tr>
+              <th scope="col">display</th>
+              <th scope="col">caracteristicas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Block</th>
+              <td>texto texto texto texto texto</td>
+            </tr>
+            <tr>
+              <th scope="row">Inline</th>
+              <td>texto texto texto texto texto </td>
+            </tr>
+            <tr>
+              <th scope="row">Inline-Block</th>
+              <td>texto texto texto texto texto</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </section>
+    </main>
+
+  <footer class="footer mt-auto">
+    <!-- RODAPE -->
+    <div style=" width: 100vw; height: 20vh; margin-top: 10vh;" class="corPreto">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">TODOS OS DIREITOS RESERVADOS</a>
+        </li>
+  
+        </li>
+      </ul>
+    </div>
+
+   </footer>
+
+<script src="../framework/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
